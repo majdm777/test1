@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ring.css">
+    <link rel="stylesheet" href="Home.css">
+    <script src="ring.js"></script>
+    <link rel="icon" href="images/ring.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+    <title>Earring</title>
+    <div class="M1">
+      
+        
+        <div class="M11">
+            <span class="mar"><img src="images/rinlow-othman.png" width="25%" height="100%" ></span>
+        </div>   
+        
+
+        <div class="B1">
+            <a class="mar1" href="home.html">Home</a> 
+            <a class="mar1" href="ring.html">Rings</a>
+            <a class="mar1" href="braclets.html">Braclets</a>
+            <a class="mar1" href="necklace.html">Necklaces</a>
+            <a id="glow" href="earing.html">Earings</a>              
+                                   
+        </div>
+            
+               
+    </div>
+</head>
+<body style="background-color: #F5E6C8;margin:0;">
+
+   
+    
+      
+    <div style="text-align: center;">
+        <h1 class="head_ring">Embrace Elegnace With RinGlow Earrings</h1>
+       <!--<div class="underline"></div> -->
+     <div id="h1">
+       
+        <span class="search-icon material-symbols-outlined">search </span>
+         <form >
+            <input class="search-input " id="search-input" type="search" placeholder="Search Your earring"></form>
+     </div> 
+    </div>
+    
+    <div class="pic-center">
+        <div class="pic">
+            <img src="images/photo.webp" height="100%" width="100%">
+        </div>
+
+        <div class="pic">
+            <img src="images/acces1.png" height="100%" width="100%">
+        </div>
+
+        <div class="pic">
+            <img src="images/ear6.jpg" height="100%" width="100%">
+        </div>
+
+
+
+
+    </div>
+  
+    <div class="ring_parent">
+    <div class="ring1">
+        <div class="ring2">
+         <h1 class="head_ring">Browse our RinGlow Collection</h1>
+        
+              <h4 style="color: #b8860b;">Gold</h4>
+            
+         <div class="container" id="gold">
+            <div class="card" data-catehory="gold">
+                <img class="ring_photo" src="images/earring1.jpg">
+                  <a class="card-text" href="Buy.html?image=images/earring1.jpg"><button class="buy"  type="submit">Buy</button></a> 
+                  <p class="card-text">120$<br>Carry a Little Beauty With You</p>                  
+                
+            </div>
+            <div class="card" data-catehory="gold">
+                <img class="ring_photo" src="images/earring2.webp">
+                  <a class="card-text" href="Buy.html?image=images/earring2.webp"><button class="buy"  type="submit">Buy</button></a> 
+                  <p class="card-text">75$<br>An Accessory to Adore</p>                  
+                
+            </div>
+            <div class="card" data-catehory="gold">
+                <img class="ring_photo" src="images/earring3.webp">
+                  <a class="card-text" href="Buy.html?image=images/earring3.webp"><button class="buy"  type="submit">Buy</button></a> 
+                  <p class="card-text">90$<br>Carry a Little Beauty With You</p>                  
+                
+            </div>
+            <div class="card" data-catehory="gold">
+                <img class="ring_photo" src="images/earring4.webp">
+                  <a class="card-text" href="Buy.html?image=images/earring4.webp"><button class="buy"  type="submit">Buy</button></a> 
+                  <p class="card-text">125$<br>An Accessory to Adore</p>                  
+                
+            </div>
+         </div>
+               <h4 style="color:#b8860b;">Diamond</h4>
+               <div class="container" id="diamond">
+                <div class="card" data-catehory="diamond">
+                    <img class="ring_photo" src="images/earring5.webp">
+                      <a class="card-text" href="Buy.html?image=images/earring5.webp"><button class="buy"  type="submit">Buy</button></a> 
+                      <p class="card-text">120$<br>Your Perfect Wrist Companion</p>                  
+                    
+                </div>
+                <div class="card" data-catehory="diamond">
+                    <img class="ring_photo" src="images/earring6.webp">
+                      <a class="card-text" href="Buy.html?image=images/earring6.jpg"><button class="buy"  type="submit">Buy</button></a> 
+                      <p class="card-text">80$<br>An Accessory to Adore</p>                  
+                    
+                </div>
+                <div class="card" data-catehory="diamond">
+                    <img class="ring_photo" src="images/earring7.webp">
+                      <a class="card-text" href="Buy.html?image=images/earring7.jpg"><button class="buy"  type="submit">Buy</button></a> 
+                      <p class="card-text">145$<br>Carry a Little Beauty With You</p>                  
+                    
+                </div>
+                <div class="card" data-catehory="diamond">
+                    <img class="ring_photo" src="images/earring1.jpg">
+                      <a class="card-text" href="Buy.html?image=images/earring1.jpg"><button class="buy"  type="submit">Buy</button></a> 
+                      <p class="card-text">90$<br>Your Perfect Wrist Companion</p>                  
+                    
+                </div>
+             </div>
+         </div>
+        
+    </div>
+    </div>
+    
+      
+    
+    <script >        // Function to handle scrolling to the matching container
+        function scrollToContainer(event) {
+            // Check if the key pressed is Enter
+            if (event.key === "Enter") {
+                event.preventDefault(); // Prevent the default form submission behavior
+        
+                // Get the search bar input
+                const query = document.getElementById("search-input").value.toLowerCase();
+        
+                // Match the query to the corresponding container id
+                if (query === "gold" || query === "diamond") {
+                    // Find the container by ID
+                    const container = document.getElementById(query);
+        
+                    // Scroll into view if the container exists
+                    if (container) {
+                        container.scrollIntoView({ behavior: "smooth", block: "center" });
+                    }
+                }
+            }
+        }
+        
+        // Attach an event listener to the search bar
+        document.getElementById("search-input").addEventListener("keydown", scrollToContainer);</script>
+   
+ 
+</body>
+<footer>
+    <div class="footer-column-1">
+        <h2>social media</h2>
+        <div class="footer-row"> <img class="circle" src="images/facebook.png" height="100%" width="100%"><span class="footer-text">@RING.low</span></div>
+        <div class="footer-row"> <img class="circle" src="images/instagram.png" height="100%" width="100%"><span class="footer-text">@RING.low</span></div>
+
+    </div>
+
+    <div class="footer-column-1">
+        <h2>contact us</h2>
+        <div class="footer-row"> <img class="circle" src="images/phone-call.png" height="100%" width="100%"><span class="footer-text">+961 81 020790</span></div>
+        <div class="footer-row"> <img class="circle" src="images/email.png" height="100%" width="100%"><span class="footer-text">Ringlow.shop@gmail.com</span></div>
+
+    </div>
+
+    <div class="footer-column-1">
+        <h2>Customer Support</h2>
+        <div class="footer-row"><span class="footer-text"><a style="color: black;" href=""  >Help Center</a></span></div>
+        <div class="footer-row"><span class="footer-text"><a style="color: black;" href=""  >About</a></span></div>
+
+    </div>
+
+    
+    
+
+</footer>
+
+
+
+</html>

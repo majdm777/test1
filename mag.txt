@@ -1,0 +1,45 @@
+<div class="row">
+      <div class="column">
+         <img src="images\ear6.jpg" width="500px" height="600px">
+      </div>
+
+      <div class="column" >
+          <img src="images\acces.jpg" width="500"  height="600">
+      </div>
+
+      <div class="column">
+         <img src="images\neck10.jpg" width="300" height="250">
+         <p>18k gold heart necklace &nbsp;&nbsp;225$</p>
+      </div>
+
+             <div class="column">
+                 <img src="images/neck11.jpg" width="300" height="250">
+                 <p>18k gold round flower necklace &nbsp;&nbsp;200$</p>
+             </div>
+             <div class="column">
+                <img src="images/neck1.1.jpg" width="300" height="250">
+                <p>18k gold micro-paved studded shell &nbsp;&nbsp;300$</p>
+                <p>& pearl threaded necklace</p>
+             </div>
+             <div class="column">
+                <img src="images/neck3.jpg" width="300" height="250">
+                <p>Mini heart red stone  big pearl heart set&nbsp; 150$ </p>
+                
+             </div>
+             <div class="column">
+                <img src="images/neck8.jpg" width="300" height="250">
+                <p>18k gold sun necklace ,long chain &nbsp;&nbsp;250$</p>
+             </div>
+             <div class="column">
+                <img src="images/neck7.jpg" width="300" height="250">
+                <p>18k butterfly gold necklace" &nbsp;500$ </p>
+             </div>
+             <div class="column">
+                <img src="images/neck4.jpg" width="300" height="250">
+                <p>18k black heart vintage design  rose gold 440$</p>
+             </div>
+             <div class="column">
+                <img src="images/neck5.jpg" width="300" height="250">
+                <p>18k red cherry designed necklace  &nbsp;&nbsp;220$</p>
+             </div>
+   </div>
